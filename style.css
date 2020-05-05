@@ -3,7 +3,35 @@ header {
 }
 
 button {
+  display: flex;
   background-color: purple;
   font-weight: bold;
   color: white;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.btn {
+  display: flex;
+  background-color: purple;
+  font-weight: bold;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+#quizTextt {
+  font-weight: bolder;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+#quizTextB {
+  font-weight: bolder;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
